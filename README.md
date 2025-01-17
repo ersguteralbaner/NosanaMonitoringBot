@@ -93,16 +93,16 @@ When prompted, enter the node address (e.g., b8bsblkir41dafs9bwrzbgux3jlusaqmuh5
 
 Features and Alerts
 
-  Initial Startup: Sends a message indicating the bot is monitoring the node.
-  State Change Detection: Notifies the user whenever the node state changes.
-  Error Handling: Alerts the user if the API is unresponsive.
-  Uptime Tracking: Displays the current uptime in human-readable format.
+* Initial Startup: Sends a message indicating the bot is monitoring the node.
+* State Change Detection: Notifies the user whenever the node state changes.
+* Error Handling: Alerts the user if the API is unresponsive.
+* Uptime Tracking: Displays the current uptime in human-readable format.
 
 Common Issues
 
-  Bot Not Sending Messages: Verify the TOKEN and CHAT_ID in the .env file.
-  Environment Variable Errors: Ensure the .env file exists and is correctly configured.
-  Node Monitoring Issues: Ensure the node address is valid and the API is reachable.
+* Bot Not Sending Messages: Verify the TOKEN and CHAT_ID in the .env file.
+* Environment Variable Errors: Ensure the .env file exists and is correctly configured.
+* Node Monitoring Issues: Ensure the node address is valid and the API is reachable.
 
 Preview
 
