@@ -37,25 +37,25 @@ pip install aiohttp schedule python-dotenv
 
   1. Create a Telegram Bot:
 
-    Open Telegram and search for BotFather.
-    Start a chat with BotFather and send the command /newbot.
-    Follow the prompts to name your bot and choose a username (e.g., YourBotName_bot).
-    After creation, BotFather will give you a token in this format:
+  Open Telegram and search for BotFather.
+  Start a chat with BotFather and send the command /newbot.
+  Follow the prompts to name your bot and choose a username (e.g., YourBotName_bot).
+  After creation, BotFather will give you a token in this format:
 
     123456789:ABCDEF1234567890abcdef1234567890
 
-    Save this token for later.
+  Save this token for later.
 
     
   2. Get Your Chat ID:
 
-    Start a chat with your bot (search for it by its username).
-    Send any message to the bot.
-    Use the following API call to get your Chat ID:
+  Start a chat with your bot (search for it by its username).
+  Send any message to the bot.
+  Use the following API call to get your Chat ID:
 
     curl https://api.telegram.org/bot<Your Bot Token>/getUpdates
 
-    Look for the chat field in the response. For example:
+  Look for the chat field in the response. For example:
 
     {
         "message": {
@@ -69,22 +69,20 @@ pip install aiohttp schedule python-dotenv
 
     In this example, the Chat ID is 123456789.
 
-    Configure the .env File:
+  Configure the .env File:
 
-    Create a .env file in the root of your project:
+  Create a .env file in the root of your project:
 
     touch .env
 
-    Add the following content to your .env file:
+  Add the following content to your .env file:
 
     TOKEN=<Your Telegram Bot Token>
     CHAT_ID=<Your Telegram Chat ID>
 
-    Replace <Your Telegram Bot Token> with the token provided by BotFather.
+  Replace <Your Telegram Bot Token> with the token provided by BotFather.
 
-    Replace <Your Telegram Chat ID> with the ID retrieved earlier.
-
-    Usage
+  Replace <Your Telegram Chat ID> with the ID retrieved earlier.
 
 ### Step 4: Run the script by executing the following command:
 ```bash
@@ -95,14 +93,14 @@ When prompted, enter the node address (e.g., b8bsblkir41dafs9bwrzbgux3jlusaqmuh5
 
 Features and Alerts
 
-    Initial Startup: Sends a message indicating the bot is monitoring the node.
-    State Change Detection: Notifies the user whenever the node state changes.
-    Error Handling: Alerts the user if the API is unresponsive.
-    Uptime Tracking: Displays the current uptime in human-readable format.
+  Initial Startup: Sends a message indicating the bot is monitoring the node.
+  State Change Detection: Notifies the user whenever the node state changes.
+  Error Handling: Alerts the user if the API is unresponsive.
+  Uptime Tracking: Displays the current uptime in human-readable format.
 
 Common Issues
 
-    Bot Not Sending Messages: Verify the TOKEN and CHAT_ID in the .env file.
-    Environment Variable Errors: Ensure the .env file exists and is correctly configured.
-    Node Monitoring Issues: Ensure the node address is valid and the API is reachable.
+  Bot Not Sending Messages: Verify the TOKEN and CHAT_ID in the .env file.
+  Environment Variable Errors: Ensure the .env file exists and is correctly configured.
+  Node Monitoring Issues: Ensure the node address is valid and the API is reachable.
 
