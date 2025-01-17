@@ -104,3 +104,8 @@ Common Issues
   Environment Variable Errors: Ensure the .env file exists and is correctly configured.
   Node Monitoring Issues: Ensure the node address is valid and the API is reachable.
 
+Preview
+
+![Screenshot from 2025-01-17 09-03-08](https://github.com/user-attachments/assets/c3e5aa20-7591-4222-a36f-73b9050541ed)
+
+
