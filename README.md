@@ -86,7 +86,7 @@ pip install aiohttp schedule python-dotenv
 
 ### Step 4: Run the script by executing the following command:
 ```bash
-python node_monitor.py
+python api.py
 ```
 When prompted, enter the node address (e.g., b8bsblkir41dafs9bwrzbgux3jlusaqmuh5xfndiydbz). The bot will monitor the provided node and send updates to the specified Telegram chat.
 
