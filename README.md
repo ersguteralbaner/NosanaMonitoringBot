@@ -67,22 +67,22 @@ pip install aiohttp schedule python-dotenv
         }
     }
 
-    In this example, the Chat ID is 123456789.
+  In this example, the Chat ID is 123456789.
 
   Configure the .env File:
 
-  Create a .env file in the root of your project:
+  Edit the .env file in the root of your project:
 
-    touch .env
+    nano .env
 
   Add the following content to your .env file:
 
     TOKEN=<Your Telegram Bot Token>
     CHAT_ID=<Your Telegram Chat ID>
-
   Replace <Your Telegram Bot Token> with the token provided by BotFather.
-
   Replace <Your Telegram Chat ID> with the ID retrieved earlier.
+
+  Save the changes by pressing CTRL+O and exit with CTRL+X
 
 ### Step 4: Run the script by executing the following command:
 ```bash
