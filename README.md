@@ -82,7 +82,7 @@ pip install aiohttp schedule python-dotenv
   Replace <Your Telegram Bot Token> with the token provided by BotFather.
   Replace <Your Telegram Chat ID> with the ID retrieved earlier.
 
-  Save the changes by pressing CTRL+O and exit with CTRL+X
+  Save the changes by pressing CTRL+O then ENTER and exit with CTRL+X
 
 ### Step 4: Run the script by executing the following command:
 ```bash
